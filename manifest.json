@@ -1,0 +1,13 @@
+{
+  "name": "File Preview for Jive",
+  "version": "2.0",
+  "description":"Enriched Content Experience for Jive",
+  "web_accessible_resources": ["inflate.js","deflate.js","zip.js","mime-types.js","zip-ext.js","zip-fs.js","prism.css","prism.js"],
+      "content_scripts": [
+        {
+        "matches": ["https://*/*"],
+        "js": ["main.js"]
+        }
+    ], 
+  "manifest_version": 2
+}
